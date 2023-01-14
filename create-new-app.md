@@ -26,8 +26,6 @@ git push -u origin master
 
 ```
 yarn add gh-pages --save-dev
-yarn add eslint-config-react -D
-yarn add -D prettier
 yarn add react-router-dom --save
 ```
 
@@ -76,6 +74,22 @@ yarn run deploy
 
 8. Check your github settings > pages. If it is not already deploying, make sure to set `branch = gh-pages` and save. Wait a minute or two, and your page should be deployed!
 
+### Install Eslint and Prettier
+
+Download the vscode extensions, `Prettier - Code Formatter` and `Eslint` if they are not already there.
+
+1. Follow most of these instructions to [configure Eslint](https://www.geeksforgeeks.org/how-to-configure-eslint-for-react-projects/)
+
+2. Follow most of these instructions to [configure Prettier](https://khalilstemmler.com/blogs/tooling/prettier/#:~:text=Configuring%20Prettier%20to%20work%20with%20ESLint&text=With%20ESLint%20and%20Prettier%20already,these%20two%20packages%20as%20well.&text=eslint%2Dconfig%2Dprettier%20%3A%20Turns,Prettier%20rules%20into%20ESLint%20rules.)
+
+### Add Routing
+
+If you wish to have multiple pages on your website, you will need to set up routing.
+
+I suggest watching the first 6 minutes of [this video](https://www.youtube.com/watch?v=Ul3y1LXxzdU&ab_channel=WebDevSimplified) for an up-to-date react-router-dom v6 explanation of routing.
+
+> Make sure not to follow any instructions that involve `<Switch>` - this is from v5 and is outdated.
+
 ## Development
 
 In the project directory, you can run:
@@ -113,13 +127,10 @@ If you get a blank page locally, check your inspect. In my case I had to navigat
 ## References:
 
 - Basic Tutorial but with npm https://blog.logrocket.com/deploying-react-apps-github-pages/
-- Solving router problems https://medium.com/@Dragonza/react-router-problem-with-gh-pages-c93a5e243819
 - Official explanation for important `package.json` settings like `homepage` https://create-react-app.dev/docs/deployment/
 - Discussion on how to route localhost and github pages together https://stackoverflow.com/questions/43011207/using-homepage-in-package-json-without-messing-up-paths-for-localhost
 
 ## Further Steps:
 
 - Update your title and icon inside `index.html` and your manifest inside `manifest.json` (https://hackthestuff.com/article/what-is-manifest-json-file-and-how-it-is-useful)
-- [configure eslint](https://www.geeksforgeeks.org/how-to-configure-eslint-for-react-projects/)
-- [configure prettier](https://khalilstemmler.com/blogs/tooling/prettier/#:~:text=Configuring%20Prettier%20to%20work%20with%20ESLint&text=With%20ESLint%20and%20Prettier%20already,these%20two%20packages%20as%20well.&text=eslint%2Dconfig%2Dprettier%20%3A%20Turns,Prettier%20rules%20into%20ESLint%20rules.)
 - this one might also be worth checking out for [eslint and prettier](https://medium.com/how-to-react/config-eslint-and-prettier-in-visual-studio-code-for-react-js-development-97bb2236b31a#:~:text=Open%20the%20terminal%20in%20your,Code%20formatter%20and%20install%20it.)
