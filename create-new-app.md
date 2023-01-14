@@ -47,8 +47,19 @@ scripts {
     "deploy" : "gh-pages -d build",
 }
 ```
-> I would also remove the 'eject' script. 
+> I would also delete the 'eject' script. 
 
+6. Inside `index.js`, replace the `root.render` line with the following:
+
+```
+import { BrowserRouter } from 'react-router-dom';
+
+root.render(
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <App />
+  </BrowserRouter>
+);
+```
 
 6. Commit and Deploy your webapp.
 ```
