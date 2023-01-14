@@ -49,7 +49,7 @@ scripts {
 ```
 > I would also delete the 'eject' script. 
 
-6. Inside `index.js`, replace the `root.render` line with the following:
+6. Inside `index.js`, add the import and replace the `root.render` line with the following:
 
 ```
 import { BrowserRouter } from 'react-router-dom';
@@ -61,7 +61,7 @@ root.render(
 );
 ```
 
-6. Commit and Deploy your webapp.
+7. Commit and Deploy your webapp.
 ```
 # push updates to master
 git add .
@@ -72,7 +72,7 @@ git push
 yarn run deploy
 ```
 
-7. Check your github settings > pages. If it is not already deploying, make sure to set `branch = gh-pages` and save. Wait a minute or two, and your page should be deployed! 
+8. Check your github settings > pages. If it is not already deploying, make sure to set `branch = gh-pages` and save. Wait a minute or two, and your page should be deployed! 
 
 
 
