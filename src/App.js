@@ -1,13 +1,24 @@
-import "./App.css";
 import React from "react";
+import Home from "./pages/Home";
+import PageNotFound from "./pages/PageNotFound";
+// import { Route, Switch, Link } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Chelsea Chaffey</h1>
-      <p>4th Year Computer Science student.</p>
-      <h2>Projects</h2>
-    </div>
+    <>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+        </ul>
+      </nav>
+      <Routes>
+        <Route path="*" element={<PageNotFound />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </>
   );
 }
 
