@@ -63,6 +63,36 @@ yarn run deploy
 
 7. Check your github settings > pages. If it is not already deploying, make sure to set `branch = gh-pages` and save. Wait a minute or two, and your page should be deployed! 
 
+
+
+## Development
+
+In the project directory, you can run:
+
+`yarn start`
+
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes. You may also see any lint errors in the console.
+
+`yarn build`
+
+Builds the app for production to the `build` folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+The build is minified and the filenames include the hashes. Your app is ready to be deployed!
+
+`yarn test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+`yarn predeploy`
+
+Builds the app for production.
+
+`yarn deploy`
+
+Deploys app to github pages. 
+
 ## Debugging
 
 If you get a blank page on deployment but not locally, then try more of these solutions: https://stackoverflow.com/questions/54427793/getting-blank-page-after-react-app-publish-in-github
