@@ -1,12 +1,16 @@
 import React from "react";
-import "./pages.css";
 
 export default class Home extends React.Component {
   render() {
     return (
       <div className="pageContainer">
-        <h2>Heya, its Chelsea.</h2>
-        <img src={require("../images/cat-logo.png")} width="250" alt="icon" />
+        <h2 className="text-3xl font-bold underline">Heya, its Chelsea.</h2>
+        <img
+          className=""
+          src={require("../images/cat-logo.png")}
+          width="250"
+          alt="icon"
+        />
         <p>
           Compsci student, software engineer, hobby artist and Japan enthusiast.
         </p>
