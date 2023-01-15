@@ -3,7 +3,7 @@ import React from "react";
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="pageContainer">
+      <div>
         <h2 className="text-3xl font-bold underline">Heya, its Chelsea.</h2>
         <img
           className=""
