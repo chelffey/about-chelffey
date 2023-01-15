@@ -90,6 +90,10 @@ I suggest watching the first 6 minutes of [this video](https://www.youtube.com/w
 
 > Make sure not to follow any instructions that involve `<Switch>` - this is from v5 and is outdated.
 
+## Install Tailwind
+
+Follow these instructions: https://medium.com/codingthesmartway-com-blog/how-to-use-tailwind-css-with-react-9dd78bbdc0e0
+
 ## Development
 
 In the project directory, you can run:
