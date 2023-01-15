@@ -7,7 +7,7 @@ export default class Home extends React.Component {
       <div className="App">
         <h1>Chelsea Chaffey</h1>
         <p>4th Year Computer Science student.</p>
-        <h2>Projects</h2>
+        <h3>Website currently under development. Stay tuned!</h3>
       </div>
     );
   }
