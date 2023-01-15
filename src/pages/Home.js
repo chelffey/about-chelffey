@@ -4,7 +4,7 @@ import "./pages.css";
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="pageContainer">
         <h2>Heya, its Chelsea.</h2>
         <img src={require("../images/cat-logo.png")} width="250" alt="icon" />
         <p>
