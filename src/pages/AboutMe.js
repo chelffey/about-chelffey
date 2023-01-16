@@ -3,8 +3,8 @@ import React from "react";
 export default class AboutMe extends React.Component {
   render() {
     return (
-      <div className="pageContainer">
-        <h1>About me, [the website].</h1>
+      <div className="h-screen">
+        <h1 className="text-5xl py-20">About me, [the website].</h1>
         <p>
           Thought you were learning more about Chelsea? Well you thought wrong -
           cause you&apos;re actually talking to me, the website.
@@ -16,6 +16,7 @@ export default class AboutMe extends React.Component {
         </p>
         <h2>What am I made of</h2>
         <p>Reactjs with Javascript, a full frontend hosted on GitHub pages.</p>
+        <p>Tailwind CSS, ESLint and Prettier.</p>
         <p>Chelsea&apos;s frontend skills went UP after I was created.</p>
         <p>Check out my repo - my blood and guts.</p>
       </div>
