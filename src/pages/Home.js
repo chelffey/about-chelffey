@@ -13,21 +13,22 @@ export default class Home extends React.Component {
             Meet Chelsea: Compsci student, software engineer and hobby artist.
           </p>
         </div>
-        <div className="grid grid-cols-3 content-center px-20">
+        <div className="grid grid-cols-3 content-center px-20 pb-36">
           <div>
             <ul className="[&>*]:pb-6">
-              <li>4th Year B. Computer Science @ UNSW</li>
-              <li>Currently interning @Atlassian</li>
-              <li>Casual Academic</li>
-              <li>Multimedia VP and Creative Director</li>
-              <li>Hopeful exchange student @UTokyo Japan</li>
-              <li>INTP</li>
+              <li>4th Year B. Computer Science @UNSW</li>
+              <li>Interning @Atlassian</li>
+              <li>Casual Academic @UNSW</li>
+              <li>Multimedia VP @UNSWWIT</li>
+              <li>Creative Director @CSESoc</li>
+              <li>exchange student @UTokyo</li>
             </ul>
           </div>
           <div></div>
           <div>
             <ul className="[&>*]:pb-6">
               {/* additional details on hover  */}
+              <li>INTP</li>
               <li>Proud owner of a (mostly functional) home-built PC</li>
               <li>Hobby artist and sketcher</li>
               <li>Avid genshin player and fanartist</li>
@@ -36,9 +37,9 @@ export default class Home extends React.Component {
             </ul>
           </div>
         </div>
-        <div className="mx-auto bottom-0 fixed w-screen">
+        <div className="mx-auto bottom-0 fixed w-screen h-2/4">
           <img
-            className="mx-auto h-96"
+            className="mx-auto h-full"
             src={require("../images/cat-logo.png")}
             alt="cat logo"
           />

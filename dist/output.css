@@ -805,6 +805,10 @@ video {
   padding-top: 5rem;
 }
 
+.pb-36 {
+  padding-bottom: 9rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
