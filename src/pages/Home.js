@@ -4,7 +4,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="h-screen">
-        <div className="p-10">
+        <div className="py-32">
           <h2 className="text-2xl italic pb-5">
             part coder. part artist. part writer.
           </h2>
@@ -13,10 +13,9 @@ export default class Home extends React.Component {
             Meet Chelsea: Compsci student, software engineer and hobby artist.
           </p>
         </div>
-        <div className="grid grid-cols-3 content-center border-2 border-white">
-          <div className="border-2 border-white">
-            <ul>
-              {/* additional details on hover  */}
+        <div className="grid grid-cols-3 content-center px-20">
+          <div>
+            <ul className="[&>*]:pb-6">
               <li>4th Year B. Computer Science @ UNSW</li>
               <li>Currently interning @Atlassian</li>
               <li>Casual Academic</li>
@@ -25,15 +24,10 @@ export default class Home extends React.Component {
               <li>INTP</li>
             </ul>
           </div>
-          <section className="hero container max-w-screen-lg mx-auto pb-10">
-            <img
-              className="mx-auto"
-              src={require("../images/cat-logo.png")}
-              alt="cat logo"
-            />
-          </section>
+          <div></div>
           <div>
-            <ul>
+            <ul className="[&>*]:pb-6">
+              {/* additional details on hover  */}
               <li>Proud owner of a (mostly functional) home-built PC</li>
               <li>Hobby artist and sketcher</li>
               <li>Avid genshin player and fanartist</li>
@@ -42,9 +36,9 @@ export default class Home extends React.Component {
             </ul>
           </div>
         </div>
-        <div>
+        <div className="mx-auto bottom-0 fixed w-screen">
           <img
-            className="block mx-auto w-1/5"
+            className="mx-auto h-96"
             src={require("../images/cat-logo.png")}
             alt="cat logo"
           />
