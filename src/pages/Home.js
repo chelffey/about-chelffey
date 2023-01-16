@@ -5,15 +5,15 @@ export default class Home extends React.Component {
     return (
       <div className="h-screen">
         <div className="py-32">
-          <h2 className="text-2xl italic pb-5">
+          <h2 className="text-3xl italic pb-5">
             part coder. part artist. part writer.
           </h2>
-          <h2 className="text-3xl font-bold pb-5">full creator.</h2>
-          <p className="">
+          <h2 className="text-5xl font-bold pb-5">full creator.</h2>
+          <p className="text-2xl">
             Meet Chelsea: Compsci student, software engineer and hobby artist.
           </p>
         </div>
-        <div className="grid grid-cols-3 content-center px-20 pb-36">
+        <div className="grid grid-cols-3 content-center px-20 pb-36 [&>*]:text-2xl">
           <div>
             <ul className="[&>*]:pb-6">
               <li>4th Year B. Computer Science @UNSW</li>
