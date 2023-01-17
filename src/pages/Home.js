@@ -8,12 +8,14 @@ export default class Home extends React.Component {
           <h2 className="text-3xl italic pb-5">
             part coder. part artist. part writer.
           </h2>
-          <h2 className="text-5xl font-bold pb-5">full creator.</h2>
+          <h2 className="text-5xl hover:text-6xl transition-all font-bold pb-5">
+            full creator.
+          </h2>
         </div>
         <div className="grid grid-cols-3 content-center px-20 pb-36 [&>*]:text-2xl">
           <div>
             <ul className="[&>*]:pb-6">
-              <li>Age: 20</li>
+              <li className="hover:text-4xl transition-all">Age: 20</li>
               <li>Pronouns: she/they</li>
               <li>Major: Computer Science @UNSW</li>
               <li>Year: Penultimate</li>

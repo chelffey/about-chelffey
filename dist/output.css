@@ -580,16 +580,12 @@ video {
   height: 100vh;
 }
 
-.h-2\/4 {
-  height: 50%;
+.h-2\/3 {
+  height: 66.666667%;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-2\/3 {
-  height: 66.666667%;
 }
 
 .w-screen {
@@ -637,17 +633,22 @@ video {
   line-height: 2.25rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
 .italic {
   font-style: italic;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -663,6 +664,33 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@-webkit-keyframes clr {
+  100% {
+    color: red;
+  }
+}
+
+@keyframes clr {
+  100% {
+    color: red;
+  }
+}
+
+.hover\:animate-change-colour:hover {
+  -webkit-animation: clr 2s ease-in 1;
+          animation: clr 2s ease-in 1;
+}
+
+.hover\:text-4xl:hover {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.hover\:text-6xl:hover {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .\[\&\>\*\]\:pb-6>* {
