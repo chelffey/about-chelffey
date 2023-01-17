@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/about-chelffey/static/css/main.f8f06e7b.css",
-    "main.js": "/about-chelffey/static/js/main.289207d5.js",
+    "main.css": "/about-chelffey/static/css/main.e783f9ea.css",
+    "main.js": "/about-chelffey/static/js/main.5b57c6ca.js",
     "static/js/787.68793ebe.chunk.js": "/about-chelffey/static/js/787.68793ebe.chunk.js",
-    "static/media/cat-logo.png": "/about-chelffey/static/media/cat-logo.b34ddfc4cb476e2036d1.png",
+    "static/media/cat-world-sleepy.png": "/about-chelffey/static/media/cat-world-sleepy.4295b8353e778596800e.png",
     "index.html": "/about-chelffey/index.html",
-    "main.f8f06e7b.css.map": "/about-chelffey/static/css/main.f8f06e7b.css.map",
-    "main.289207d5.js.map": "/about-chelffey/static/js/main.289207d5.js.map",
+    "main.e783f9ea.css.map": "/about-chelffey/static/css/main.e783f9ea.css.map",
+    "main.5b57c6ca.js.map": "/about-chelffey/static/js/main.5b57c6ca.js.map",
     "787.68793ebe.chunk.js.map": "/about-chelffey/static/js/787.68793ebe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8f06e7b.css",
-    "static/js/main.289207d5.js"
+    "static/css/main.e783f9ea.css",
+    "static/js/main.5b57c6ca.js"
   ]
 }
