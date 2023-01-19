@@ -2,7 +2,7 @@
 
 Instructions on how to create from scratch and deploy a React application to Github Pages. I used React, Javascript and yarn as the package manager.
 
-## Step by Step Guide
+## Quick Start Guide
 
 1. Inside the terminal:
 
@@ -17,7 +17,7 @@ git init
 3. Inside your terminal, push to your remote github repo.
 
 ```
-git commit -m "first commit"
+git commit -m "setup repo"
 git remote add origin <github-url>
 git push -u origin master
 ```
@@ -38,12 +38,18 @@ yarn add react-router-dom --save
 "private": false,
 "license": "UNLICENSED",
 "homepage": "<url of your deployed website>",
+```
+
+7. Inside the scripts section of `package.json`, add the following:
+8. 
+```
 ...
 scripts {
     ...
     "predeploy" : "yarn run build",
     "deploy" : "gh-pages -d build",
 }
+
 ```
 
 > I would also delete the 'eject' script.
@@ -54,21 +60,21 @@ scripts {
 import { BrowserRouter } from 'react-router-dom';
 
 root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <App />
-  </BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );
 ```
 
 7. Commit and Deploy your webapp.
 
 ```
-# push updates to master
-git add .
+git add -A
 git commit -m "setup deployment github pages"
 git push
 
-# deploy to github pages
 yarn run deploy
 ```
 
