@@ -30,7 +30,7 @@ yarn add react-router-dom --save
 ```
 
 5. On github, find or choose the name of the website you will be deploying to, in Settings > Pages.
-   It will look similar to ""https://chelffey.github.io/about-chelffey/".
+   It should be in the format "https://<username>.github.io/<repo-name>/", e.g. "https://chelffey.github.io/about-chelffey/".
 
 6. Inside the `package.json`, add or amend the following lines:
 
@@ -41,7 +41,6 @@ yarn add react-router-dom --save
 ```
 
 7. Inside the scripts section of `package.json`, add the following:
-8. 
 ```
 ...
 scripts {
@@ -54,7 +53,7 @@ scripts {
 
 > I would also delete the 'eject' script.
 
-6. Inside `index.js`, add the import and replace the `root.render` line with the following:
+8. Inside `index.js`, add the import and replace the `root.render` line with the following:
 
 ```
 import { BrowserRouter } from 'react-router-dom';
@@ -68,7 +67,7 @@ root.render(
 );
 ```
 
-7. Commit and Deploy your webapp.
+9. Commit and Deploy your webapp.
 
 ```
 git add -A
@@ -78,7 +77,7 @@ git push
 yarn run deploy
 ```
 
-8. Check your github settings > pages. If it is not already deploying, make sure to set `branch = gh-pages` and save. Wait a minute or two, and your page should be deployed!
+10. Check your github settings > pages. If it is not already deploying, make sure to set `branch = gh-pages` and save. Wait a minute or two, and your page should be deployed!
 
 ### Install Eslint and Prettier
 
