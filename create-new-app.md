@@ -30,7 +30,7 @@ yarn add react-router-dom --save
 ```
 
 5. On github, find or choose the name of the website you will be deploying to, in Settings > Pages.
-   It should be in the format "https://<username>.github.io/<repo-name>/", e.g. "https://chelffey.github.io/about-chelffey/".
+   It should be in the format "https://USERNAME.github.io/REPOSITORY-NAME/", e.g. "https://chelffey.github.io/about-chelffey/".
 
 6. Inside the `package.json`, add or amend the following lines:
 
