@@ -15,7 +15,7 @@ export default class Home extends React.Component {
         <div className="grid grid-cols-3 content-center px-20 pb-36 [&>*]:text-2xl">
           <div>
             <ul className="[&>*]:pb-6">
-              <li className="hover:text-4xl transition-all">Age: 20</li>
+              <li>Age: 20</li>
               <li>Pronouns: she/they</li>
               <li>Major: Computer Science @UNSW</li>
               <li>Year: Penultimate</li>
