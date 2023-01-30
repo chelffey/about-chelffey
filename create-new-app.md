@@ -2,7 +2,7 @@
 
 Instructions on how to create from scratch and deploy a React application to Github Pages. I used React, Javascript and yarn as the package manager.
 
-## Step by Step Guide
+## Quick Start Guide
 
 1. Inside the terminal:
 
@@ -17,7 +17,7 @@ git init
 3. Inside your terminal, push to your remote github repo.
 
 ```
-git commit -m "first commit"
+git commit -m "setup repo"
 git remote add origin <github-url>
 git push -u origin master
 ```
@@ -30,7 +30,7 @@ yarn add react-router-dom --save
 ```
 
 5. On github, find or choose the name of the website you will be deploying to, in Settings > Pages.
-   It will look similar to ""https://chelffey.github.io/about-chelffey/".
+   It should be in the format "https://USERNAME.github.io/REPOSITORY-NAME/", e.g. "https://chelffey.github.io/about-chelffey/".
 
 6. Inside the `package.json`, add or amend the following lines:
 
@@ -38,41 +38,46 @@ yarn add react-router-dom --save
 "private": false,
 "license": "UNLICENSED",
 "homepage": "<url of your deployed website>",
+```
+
+7. Inside the scripts section of `package.json`, add the following:
+```
 ...
 scripts {
     ...
     "predeploy" : "yarn run build",
     "deploy" : "gh-pages -d build",
 }
+
 ```
 
 > I would also delete the 'eject' script.
 
-6. Inside `index.js`, add the import and replace the `root.render` line with the following:
+8. Inside `index.js`, add the import and replace the `root.render` line with the following:
 
 ```
 import { BrowserRouter } from 'react-router-dom';
 
 root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <App />
-  </BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );
 ```
 
-7. Commit and Deploy your webapp.
+9. Commit and Deploy your webapp.
 
 ```
-# push updates to master
-git add .
+git add -A
 git commit -m "setup deployment github pages"
 git push
 
-# deploy to github pages
 yarn run deploy
 ```
 
-8. Check your github settings > pages. If it is not already deploying, make sure to set `branch = gh-pages` and save. Wait a minute or two, and your page should be deployed!
+10. Check your github settings > pages. If it is not already deploying, make sure to set `branch = gh-pages` and save. Wait a minute or two, and your page should be deployed!
 
 ### Install Eslint and Prettier
 
