@@ -3,7 +3,7 @@ import React from "react";
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="h-screen bg-gray-600 text-white font-sans h-screen flex flex-col items-center justify-center">
+      <div className="h-screen bg-gray-700 text-white font-sans h-screen flex flex-col items-center justify-center">
         <h1 className="w-1/2 text-center">
           <div className="text-2xl pt-5">
             Hi, I&apos;m
@@ -29,6 +29,10 @@ export default class Home extends React.Component {
           <h2>
             from emotion to art
           </h2>
+        </div>
+
+        <div className="pt-10 italic">
+          (website under development)
         </div>
       </div>
     );
