@@ -6,7 +6,7 @@ export default class AboutMe extends React.Component {
       <div className="pageContainer">
         <h1>About me, [the website].</h1>
         <p>
-          Thought you were learning more about Chelsea? Well you thought wrong -
+          Thought you were learning more about Charley? Well you thought wrong -
           cause you&apos;re actually talking to me, the website.
         </p>
         <p>
