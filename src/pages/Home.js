@@ -3,36 +3,60 @@ import React from "react";
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="h-screen bg-gray-700 text-white font-sans h-screen flex flex-col items-center justify-center">
-        <h1 className="w-1/2 text-center">
-          <div className="text-2xl pt-5">
-            Hi, I&apos;m
+      <div className="bg-dark text-white font-sans pl-20 pr-20">
+        <div className="h-screen flex flex-col items-center justify-center">
+          <div className=" max-w-screen-sm w-full text-right ">
+          ✦&nbsp; &nbsp; &nbsp;  ✩&nbsp;  ★&nbsp; &nbsp; &nbsp; ✶
           </div>
-          <div className="text-8xl">
-            Charley
+          <h1 className="max-w-screen-sm text-left">
+            <div className="text-6xl">
+            coder by day, <br/>
+            dreamer by night
+            </div>
+            <div className="leading-loose pb-10 pl-1 pt-2">
+            code | canvas | challenge
+            </div>
+          </h1>
+          <div className="pb-10 max-w-screen-sm text-justify">
+        Hi, I’m Charley (they/them). I fell into coding when I was in high-school, discovering the joy of of Python for the first time. Since then, I’ve been fascinated by the potential of my keyboard in building things - games, websites, models, and so much more. It has been matched only by my passion for art and design, and my drive to challenge myself. 
+ 
           </div>
-          <div className="leading-loose pb-10">
-            (they/them)
-          </div>
-        </h1>
-        <div className="text-2xl pb-10">
-          I create things.
-        </div>
 
-        <div>
-          <h2>
-            from design to reality
-          </h2>
         </div>
+        <div>
+      
+          <div className="max-w-screen-sm pb-10">
+            <h2 className="text-4xl pb-5">
+            code
+            </h2>
+            <div>
+            During my studies in Computer Science (Co-op Program) @ UNSW, I’ve dipped into as many software disciplines as I could. I’ve interned in back-end engineering and product at WiseTech Global, R&D Machine Learning at ResMed, and finally, front-end engineering at Atlassian. JavaScript jokes aside, it was front-end that had me hooked - and like dark mode, I haven’t looked back since. 
+            </div>
+            <div>
+            I love been able to see my code brings design to life and into the hands of users. 
+            </div>
+          </div>
         
-        <div>
-          <h2>
-            from emotion to art
-          </h2>
-        </div>
+          <div className="max-w-screen-sm pb-10">
+            <h2 className="text-4xl pb-5">
+            canvas
+            </h2>
+            <div>
+          My art is many things, but it is never static. It is a home where I can express my passions, from trees to movies, and my comfort spot where I can unwind, relax and re-energise myself. Though I constantly seek new challenges and to improve my skills as far as possible, I always remind myself that art-making for me is not a performance but a place of joy.
+            </div>
+          </div>
 
-        <div className="pt-10 italic">
-          (website under development)
+          <div className="max-w-screen-sm pb-10">
+            <h2 className="text-4xl pb-5">
+          challenge
+            </h2>
+            <div>
+          In September 2023, I took a 9 hour flight to fulfil a childhood dream and tackle the ultimate programmer challenge - learning a human language. 
+            </div>
+            <div>
+          Having deciding I’ve spent too much time ‘in the clouds’ (metaphorically and semi-literally), I went on an in-person exchange to study at Tokyo University as a Westpac Asian Exchange Scholar. With just a few months of prior Japanese language experience, I enrolled in five intensive language classes a week and then proceeded to learn basic survival skills for the next five months. It was an immensely eye-opening experience that has only strengthened my character and self-knowledge. After all, if I can survive half a year alone in a foreign country, what challenges can’t I overcome? 
+            </div>
+          </div>
         </div>
       </div>
     );
