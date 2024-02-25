@@ -611,6 +611,10 @@ video {
   line-height: 2.5rem;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-loose {
   line-height: 2;
 }

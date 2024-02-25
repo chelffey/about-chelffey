@@ -32,7 +32,7 @@ export default class Home extends React.Component {
             code
               </h2>
               <div className="pb-10">
-            During my studies in Computer Science (Co-op Program) @ UNSW, I’ve dipped into as many software disciplines as I could. I’ve interned in back-end engineering and product at WiseTech Global, R&D Machine Learning at ResMed, and finally, front-end engineering at Atlassian. JavaScript jokes aside, it was front-end that had me hooked - and like dark mode, I haven’t looked back since. 
+            During my studies in Computer Science (Co-op Program) @ UNSW, I’ve dipped into as many software disciplines as I could. I’ve interned in back-end engineering and product at WiseTech Global, R&D Machine Learning at ResMed, and finally, front-end engineering at Atlassian. JavaScript jokes aside, it was front-end that had me <span className="italic">hooked</span> - and like dark mode, I haven’t looked back since. 
               </div>
               <div>
             I love been able to see my code brings design to life and into the hands of users. 
