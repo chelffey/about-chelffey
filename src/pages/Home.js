@@ -35,7 +35,7 @@ export default class Home extends React.Component {
             During my studies in Computer Science (Co-op Program) @ UNSW, I’ve dipped into as many software disciplines as I could. I’ve interned in back-end engineering and product at WiseTech Global, R&D Machine Learning at ResMed, and finally, front-end engineering at Atlassian. JavaScript jokes aside, it was front-end that had me <span className="italic">hooked</span> - and like dark mode, I haven’t looked back since. 
               </div>
               <div>
-            I love been able to see my code brings design to life and into the hands of users. 
+            I love seeing my code bring designs to life and into the hands of users. 
               </div>
               <div className="text-center pt-10 text-yellow-600"> ↓ </div>
             </div>
