@@ -3,7 +3,7 @@ import React from "react";
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="bg-dark text-white font-sans pl-20 pr-20 pb-32">
+      <div className="bg-dark text-white font-sans pl-20 pr-20">
         <div className="h-screen flex flex-col items-center justify-center">
           <div className=" max-w-screen-sm w-full text-right ">
           ✦&nbsp; &nbsp; &nbsp;  ✩&nbsp;  ★&nbsp; &nbsp; &nbsp; ✶
@@ -64,6 +64,7 @@ export default class Home extends React.Component {
               <div>
           Having deciding I’ve spent too much time ‘in the clouds’ (metaphorically and semi-literally), I went on an in-person exchange to study at Tokyo University as a Westpac Asian Exchange Scholar. With just a few months of prior Japanese language experience, I enrolled in five intensive language classes a week and then proceeded to learn basic survival skills for the next five months. It was an immensely eye-opening experience that has only strengthened my character and self-knowledge. After all, if I can survive half a year alone in a foreign country, what challenges can’t I overcome? 
               </div>
+              <div className="text-right pt-10">✦</div>
             </div>
           </div>
         </div>
