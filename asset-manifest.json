@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/about-chelffey/static/css/main.e079319c.css",
-    "main.js": "/about-chelffey/static/js/main.12abf29b.js",
+    "main.css": "/about-chelffey/static/css/main.25340d48.css",
+    "main.js": "/about-chelffey/static/js/main.dcd73335.js",
     "static/js/787.6fb6a6b3.chunk.js": "/about-chelffey/static/js/787.6fb6a6b3.chunk.js",
     "index.html": "/about-chelffey/index.html",
-    "main.e079319c.css.map": "/about-chelffey/static/css/main.e079319c.css.map",
-    "main.12abf29b.js.map": "/about-chelffey/static/js/main.12abf29b.js.map",
+    "main.25340d48.css.map": "/about-chelffey/static/css/main.25340d48.css.map",
+    "main.dcd73335.js.map": "/about-chelffey/static/js/main.dcd73335.js.map",
     "787.6fb6a6b3.chunk.js.map": "/about-chelffey/static/js/787.6fb6a6b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e079319c.css",
-    "static/js/main.12abf29b.js"
+    "static/css/main.25340d48.css",
+    "static/js/main.dcd73335.js"
   ]
 }
