@@ -5,7 +5,7 @@ export default class Home extends React.Component {
     return (
       <div className="bg-dark text-white font-sans pl-20 pr-20">
         <div className="h-screen flex flex-col items-center justify-center">
-          <div className=" max-w-screen-sm w-full text-right ">
+          <div className="animate-pulse text-yellow-600 max-w-screen-sm w-full text-right ">
           ✦&nbsp; &nbsp; &nbsp;  ✩&nbsp;  ★&nbsp; &nbsp; &nbsp; ✶
           </div>
           <h1 className="max-w-screen-sm text-left">
@@ -13,7 +13,7 @@ export default class Home extends React.Component {
             coder by day, <br/>
             dreamer by night
             </div>
-            <div className="leading-loose pb-10 pl-1 pt-2">
+            <div className="leading-loose pb-10 pl-1 pt-2 text-yellow-600">
             code | canvas | challenge
             </div>
           </h1>
@@ -21,7 +21,7 @@ export default class Home extends React.Component {
         Hi, I’m Charley (they/them). I fell into coding when I was in high-school, discovering the joy of of Python for the first time. Since then, I’ve been fascinated by the potential of my keyboard in building things - games, websites, models, and so much more. It has been matched only by my passion for art and design, and my drive to challenge myself. 
  
           </div>
-          <div> ↓ </div>
+          <div className="text-yellow-600"> ↓ </div>
 
         </div>
         <div className="flex flex-col items-center justify-center">
@@ -37,7 +37,7 @@ export default class Home extends React.Component {
               <div>
             I love been able to see my code brings design to life and into the hands of users. 
               </div>
-              <div className="text-center pt-10"> ↓ </div>
+              <div className="text-center pt-10 text-yellow-600"> ↓ </div>
             </div>
           </div>
         
@@ -49,7 +49,7 @@ export default class Home extends React.Component {
               <div>
           My art is many things, but it is never static. It is a home where I can express my passions, from trees to movies, and my comfort spot where I can unwind, relax and re-energise myself. Though I constantly seek new challenges and to improve my skills as far as possible, I strive most to keep my artmaking as a place of joy.
               </div>
-              <div className="text-center pt-10"> ↓ </div>
+              <div className="text-center pt-10 text-yellow-600"> ↓ </div>
             </div>
           </div>
 
@@ -64,7 +64,7 @@ export default class Home extends React.Component {
               <div>
           Having deciding I’ve spent too much time ‘in the clouds’ (metaphorically and semi-literally), I went on an in-person exchange to study at Tokyo University as a Westpac Asian Exchange Scholar. With just a few months of prior Japanese language experience, I enrolled in five intensive language classes a week and then proceeded to learn basic survival skills for the next five months. It was an immensely eye-opening experience that has only strengthened my character and self-knowledge. After all, if I can survive half a year alone in a foreign country, what challenges can’t I overcome? 
               </div>
-              <div className="text-right pt-10">✦</div>
+              <div className="text-right pt-10 animate-pulse text-yellow-600">✦</div>
             </div>
           </div>
         </div>
