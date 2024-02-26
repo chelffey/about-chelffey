@@ -1,11 +1,13 @@
 import React from "react";
 import ImageCodePC from "../images/code-pc.jpg";
+import ImageArtSpiritedAway from "../images/art-spirited-away.jpg";
+import ImageArtTree from "../images/art-tree.jpg";
 
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="bg-dark text-white font-sans pl-20 pr-20">
-        <div className="h-screen flex flex-col items-center justify-center">
+      <div className="bg-dark text-white font-sans pl-20 pr-20 text-justify">
+        <div className="h-screen colbox">
           <div className="animate-pulse text-yellow-600 max-w-screen-sm w-full text-right ">
           ✦&nbsp; &nbsp; &nbsp;  ✩&nbsp;  ★&nbsp; &nbsp; &nbsp; ✶
           </div>
@@ -25,11 +27,11 @@ export default class Home extends React.Component {
           <div className="text-yellow-600"> ↓ </div>
 
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="colbox">
       
-          <div className="min-h-screen flex flex-col items-center justify-center">
-            <div className="flex flex-row items-center justify-center flex-row flex-wrap">
-              <div className="flex flex-col items-center justify-center p-10">
+          <div className="min-h-screen colbox">
+            <div className="rowbox">
+              <div className="colbox mr-10">
                 <div className="max-w-screen-sm pb-10">
                   <h2 className="text-4xl pb-5">
                 code
@@ -56,7 +58,7 @@ export default class Home extends React.Component {
 
 
 
-          <div className="flex flex-col items-center justify-center min-h-screen">
+          <div className="colbox min-h-screen">
             <div className="max-w-screen-sm">
               <h2 className="text-4xl pb-5">
             canvas
@@ -64,14 +66,24 @@ export default class Home extends React.Component {
               <div>
           My art is many things, but it is never static. It is a home where I can express my passions, from trees to movies, and my comfort spot where I can unwind, relax and re-energise myself. Though I constantly seek new challenges and to improve my skills as far as possible, I strive most to keep my artmaking as a place of joy.
               </div>
+              <div className="rowbox mt-10">
+                <div className="max-w-screen-sm text-center colbox">
+                  <img src={ImageArtTree} alt="PC built by Charley in 2021" className="w-72 pb-5"/>
+                  <p className="italic">Year 12 Major Work</p>
+                </div>
+                <div className="max-w-screen-sm text-center colbox">
+                  <img src={ImageArtSpiritedAway} alt="PC built by Charley in 2021" className="w-72 pb-5"/>
+                  <p className="italic">Spirited Away fan artwork</p>
+                </div>
+              </div>
               <div className="text-center pt-10 text-yellow-600"> ↓ </div>
             </div>
           </div>
+          
 
 
 
-
-          <div className="flex flex-col items-center justify-center min-h-screen">
+          <div className="colbox min-h-screen">
             <div className="max-w-screen-sm">
               <h2 className="text-4xl pb-5">
           challenge
