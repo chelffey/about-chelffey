@@ -1,4 +1,5 @@
 import React from "react";
+import ImageProfile from "../images/profile.jpg";
 import ImageCodePC from "../images/code-pc.jpg";
 import ImageArtSpiritedAway from "../images/art-spirited-away.jpg";
 import ImageArtTree from "../images/art-tree.jpg";
@@ -26,6 +27,11 @@ export default class Home extends React.Component {
         Hi, I’m Charley (they/them). I fell into coding when I was in high-school, discovering the joy of of Python for the first time. Since then, I’ve been fascinated by the potential of my keyboard in building things - games, websites, models, and so much more. It has been matched only by my passion for art and design, and my drive to challenge myself. 
  
           </p>
+
+          <div className="max-w-screen-sm text-center colbox">
+            <img src={ImageProfile} alt="Charley in Nikko" className="w-60 pb-5"/>
+          </div>
+
           <div className="text-yellow-600"> ↓ </div>
 
         </div>

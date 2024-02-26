@@ -540,6 +540,18 @@ video {
   width: 18rem;
 }
 
+.w-36 {
+  width: 9rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
 .max-w-screen-sm {
   max-width: 640px;
 }
