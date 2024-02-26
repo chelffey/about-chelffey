@@ -40,7 +40,7 @@ export default class Home extends React.Component {
       
           <div className="min-h-screen colbox">
 
-            <div className="colbox mr-10">
+            <div className="colbox">
               <div className="max-w-screen-sm">
                 <h2 className="text-4xl pb-5">
                 code
