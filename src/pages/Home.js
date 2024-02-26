@@ -1,4 +1,5 @@
 import React from "react";
+import ImageCodePC from "../images/code-pc.jpg";
 
 export default class Home extends React.Component {
   render() {
@@ -26,22 +27,36 @@ export default class Home extends React.Component {
         </div>
         <div className="flex flex-col items-center justify-center">
       
-          <div className="flex flex-col items-center justify-center h-screen">
-            <div className="max-w-screen-sm">
-              <h2 className="text-4xl pb-5">
-            code
-              </h2>
-              <div className="pb-10">
-            During my studies in Computer Science (Co-op Program) @ UNSW, I’ve dipped into as many software disciplines as I could. I’ve interned in back-end engineering and product at WiseTech Global, R&D Machine Learning at ResMed, and finally, front-end engineering at Atlassian. JavaScript jokes aside, it was front-end that had me <span className="italic">hooked</span> - and like dark mode, I haven’t looked back since. 
+          <div className="min-h-screen flex flex-col items-center justify-center">
+            <div className="flex flex-row items-center justify-center flex-row flex-wrap">
+              <div className="flex flex-col items-center justify-center p-10">
+                <div className="max-w-screen-sm pb-10">
+                  <h2 className="text-4xl pb-5">
+                code
+                  </h2>
+                  <div className="pb-10">
+                During my studies in Computer Science (Co-op Program) @ UNSW, I’ve dipped into as many software disciplines as I could. I’ve interned in back-end engineering and product at WiseTech Global, R&D Machine Learning at ResMed, and finally, front-end engineering at Atlassian. JavaScript jokes aside, it was front-end that had me <span className="italic">hooked</span> - and like dark mode, I haven’t looked back since. 
+                  </div>
+                  <div>
+                I love seeing my code bring designs to life and into the hands of users. 
+                  </div>
+              
+                </div>
               </div>
-              <div>
-            I love seeing my code bring designs to life and into the hands of users. 
+              <div className="max-w-screen-sm text-center">
+                <img src={ImageCodePC} alt="PC built by Charley in 2021" className="w-72 pb-5"/>
+                <p className="italic">The PC I custom built in 2021.</p>
               </div>
-              <div className="text-center pt-10 text-yellow-600"> ↓ </div>
+            
+            
+            
             </div>
+            <div className="text-center pt-10 text-yellow-600"> ↓ </div>
           </div>
-        
-          <div className="flex flex-col items-center justify-center h-screen">
+
+
+
+          <div className="flex flex-col items-center justify-center min-h-screen">
             <div className="max-w-screen-sm">
               <h2 className="text-4xl pb-5">
             canvas
@@ -53,7 +68,10 @@ export default class Home extends React.Component {
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center h-screen">
+
+
+
+          <div className="flex flex-col items-center justify-center min-h-screen">
             <div className="max-w-screen-sm">
               <h2 className="text-4xl pb-5">
           challenge
