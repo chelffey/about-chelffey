@@ -10,8 +10,9 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="bg-dark text-white font-sans pl-20 pr-20 text-justify">
-        <div className="h-screen colbox">
-          <div className="animate-pulse text-yellow-600 max-w-screen-sm w-full text-right ">
+        
+        <div className="min-h-screen colbox">
+          <div className="animate-pulse text-yellow-600 max-w-screen-sm w-full text-right mt-10">
           ✦&nbsp; &nbsp; &nbsp;  ✩&nbsp;  ★&nbsp; &nbsp; &nbsp; ✶
           </div>
           <div className="max-w-screen-sm text-left">
@@ -32,7 +33,7 @@ export default class Home extends React.Component {
             <img src={ImageProfile} alt="Charley in Nikko" className="w-60 pb-5"/>
           </div>
 
-          <div className="text-yellow-600"> ↓ </div>
+          <div className="text-yellow-600 mb-20"> ↓ </div>
 
         </div>
         <div className="colbox">
@@ -58,7 +59,7 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            <div className="text-center pt-10 text-yellow-600"> ↓ </div>
+            <div className="text-center pt-10 text-yellow-600 mb-20"> ↓ </div>
           </div>
 
 
@@ -81,7 +82,7 @@ export default class Home extends React.Component {
                   <p className="italic">Spirited Away fan artwork</p>
                 </div>
               </div>
-              <div className="text-center pt-10 text-yellow-600"> ↓ </div>
+              <div className="text-center pt-10 text-yellow-600 mb-20"> ↓ </div>
             </div>
           </div>
           

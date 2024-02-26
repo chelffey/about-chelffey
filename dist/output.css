@@ -524,6 +524,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .h-screen {
   height: 100vh;
 }
